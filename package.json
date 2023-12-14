@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.29",
     "cobe": "^0.6.3",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
