@@ -2,18 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-	box-sizing: border-box;
+@font-face {
+	src: url("../font/mona-sans-d1bf285e9b9b.woff2");
+	font-family: mona-sans;
+}
+
+html {
+	font-family: mona-sans;
+	scroll-behavior: smooth;
 }
 
 body {
 	position: relative;
+	box-sizing: border-box;
 	background-color: #0c1015;
 	font-size: 15px;
-}
-
-html {
-	scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
