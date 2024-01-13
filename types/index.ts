@@ -10,3 +10,11 @@ export type TnavList2Props = {
     title: string;
     icon?: StaticImageData | string;
 };
+
+export type ThoverCardProps = {
+    children: React.ReactNode;
+    backgroundColor: string;
+    direction: string;
+    left: string;
+    className: string;
+};
