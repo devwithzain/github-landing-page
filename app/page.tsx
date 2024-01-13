@@ -1,3 +1,9 @@
+import { Home } from "@components";
+
 export default function App() {
-	return <div>App</div>;
+	return (
+		<>
+			<Home />
+		</>
+	);
 }
