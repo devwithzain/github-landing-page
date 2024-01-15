@@ -16,5 +16,5 @@ export type ThoverCardProps = {
     backgroundColor: string;
     direction: string;
     left: string;
-    className: string;
+    className?: string;
 };
