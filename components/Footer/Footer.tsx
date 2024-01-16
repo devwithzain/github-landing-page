@@ -1,17 +1,17 @@
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import {
 	footerLinksItem,
 	footerSocialItems,
 	footerTermsItem,
 } from "@constants";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 
 export default function Footer() {
 	return (
 		<div className="footer relative pt-14 break-words">
-			<div className="relative z-[2] overflow-hidden w-full px-12">
-				<div className="flex flex-col lg:flex-row py-10 mb-8 space-x-6">
+			<div className="relative z-[2] overflow-hidden w-full md:px-12 max-md:px-8">
+				<div className="flex flex-col lg:flex-row py-10 mb-8 md:space-x-6">
 					<div className="mb-12 pr-2">
 						<Link
 							href="/"
@@ -73,8 +73,8 @@ export default function Footer() {
 				</div>
 			</div>
 
-			<div className="bg-[#161b22]">
-				<div className="w-full px-12 text-[12px] md:flex flex-row-reverse py-6 justify-between items-center">
+			<div className="bg-[#161b22] md:px-12 max-md:px-8 w-full">
+				<div className="w-full text-[12px] md:flex flex-row-reverse py-6 justify-between items-center">
 					<ul className="flex items-center max-md:mb-4  ">
 						{footerSocialItems.map((item) => (
 							<li
@@ -86,7 +86,7 @@ export default function Footer() {
 									<Image
 										src={item.src}
 										height="18"
-										width="22"
+										width="18"
 										className="d-block"
 										loading="lazy"
 										decoding="async"
