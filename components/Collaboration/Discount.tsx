@@ -22,7 +22,7 @@ export default function Discount() {
 				<motion.div
 					initial={{ height: 0 }}
 					whileInView={{ height: "100%" }}
-					className="w-[3px] h-full increase1"
+					className="w-[4px] h-full increase1"
 				/>
 				<Image
 					alt=""
