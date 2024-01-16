@@ -45,7 +45,7 @@ export default function Collaboration() {
 						initial={{ height: 0 }}
 						whileInView={{ height: "100%" }}
 						transition={{ delay: 0.8 }}
-						className=" h-full w-[3px] mt-7 rounded-md bg-gradient-to-b from-[#f778ba] to-transparent"
+						className=" h-full w-[4px] mt-7 rounded-md bg-gradient-to-b from-[#f778ba] to-transparent"
 					/>
 				</div>
 				<motion.div
@@ -341,9 +341,9 @@ export default function Collaboration() {
 				</div>
 				<div className="py-3 mb-2 flex flex-col w-full gap-y-5">
 					<div className="py-10">
-						<h2 className="mb-4 lg:text-7xl md:text-4xl text-3xl font-bold text-white">
+						<h2 className="mb-4 lg:text-7xl md:text-4xl text-3xl font-bold text-white relative">
 							Over 100 million developers <br /> call GitHub home
-							<sup>3</sup>
+							<sup className="text-[30px]"> 3</sup>
 						</h2>
 						<p className="mb-4 md:text-xl text-[16px] text-[#7d8590]">
 							Whether you’re scaling your startup or just learning how to code,
