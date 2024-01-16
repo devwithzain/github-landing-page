@@ -46,7 +46,7 @@ export default function Home() {
 						className="home-campaign-productivity md:px-12 max-md:px-8  overflow-hidden">
 						<Collaboration />
 					</div>
-					{/* <Globe /> */}
+					<Globe />
 					<div className="w-full relative z-[2] md:px-12 max-md:px-8">
 						<ul className="lg:w-9/12 text-[14px] pt-16 text-[#7d8590] space-y-1">
 							<li>
