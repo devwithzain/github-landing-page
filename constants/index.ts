@@ -1,4 +1,5 @@
-import { security, packages, actions, codeSpace, copilot, codeReview, discussion, issues, share, twitter, facebook, linkedin, youtube, twitch, tiktok, GithubFooter, logo, kpmg, sap, telsus, png, marcedeeze, homeBrew, directus, dayhesoe, imolorhe, commandPost, kazupon, prophen, sindresorhus, eslint } from "@public";
+import { security, packages, actions, codeSpace, copilot, codeReview, discussion, issues, share, twitter, facebook, linkedin, youtube, twitch, tiktok, logo, kpmg, sap, telsus, png, marcedeeze, homeBrew, directus, dayhesoe, imolorhe, commandPost, kazupon, sindresorhus, eslint, threeM } from "@public";
+
 // Product Nav Constants
 export const productNavItem = [
     {
@@ -167,6 +168,7 @@ export const heroBrandsItem = [
     { id: 3, src: telsus },
     { id: 4, src: png },
     { id: 5, src: marcedeeze },
+    { id: 6, src: threeM },
 ];
 
 // Collaboration Items
