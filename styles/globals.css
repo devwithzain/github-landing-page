@@ -75,11 +75,11 @@ body {
 	filter: blur(20px);
 }
 .home-campaign-glowing-icon-glow-2 {
-	background-color: #ffa28b;
+	background-color: #6639ba;
 	filter: blur(20px);
 }
 .home-campaign-glowing-icon-glow-3 {
-	background-color: #939aff;
+	background-color: #33b3ae;
 	filter: blur(20px);
 }
 
@@ -137,10 +137,10 @@ body {
 }
 
 .increase1 {
-	background: linear-gradient(#0d1117, #ea6045, #ea6045, #0d1117);
+	background: linear-gradient(#ffffff00, #f778ba, #f778ba, #ffffff00);
 }
 .increase2 {
-	background: linear-gradient(#0d1117, #797ef9, #797ef9, #0d1117);
+	background: linear-gradient(#ffffff00, #33b3ae, #33b3ae, #ffffff00);
 }
 
 .back {
