@@ -74,7 +74,7 @@ export default function StickyNav() {
 						<div className="w-full flex items-center max-lg:flex-col relative">
 							<button
 								onClick={() => setSmallNav(!smallNav)}
-								className="lg:hidden absolute right-12 top-4">
+								className="lg:hidden absolute right-12 top-2">
 								<svg
 									aria-hidden="true"
 									height="24"
