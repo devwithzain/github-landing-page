@@ -5,7 +5,6 @@ import Lenis from "@studio-freight/lenis";
 import {
 	Collaboration,
 	Footer,
-	Globe,
 	Hero,
 	Productivity,
 	Security,
@@ -27,27 +26,26 @@ export default function Home() {
 		<>
 			<div>
 				<div className="overflow-hidden">
-					<div className="md:px-12 max-md:px-8 overflow-hidden">
+					<div className="md:px-12 max-md:px-5 overflow-hidden">
 						<Hero />
 					</div>
 					<StickyNav />
 					<div
 						id="productivity"
-						className="home-campaign-productivity md:px-12 max-md:px-8 pt-12 overflow-hidden">
+						className="home-campaign-productivity md:px-12 max-md:px-5 pt-12 overflow-hidden">
 						<Productivity />
 					</div>
 					<div
 						id="security"
-						className="home-campaign-productivity overflow-hidden md:px-12 max-md:px-8 pt-8">
+						className="home-campaign-productivity overflow-hidden md:px-12 max-md:px-5 pt-8">
 						<Security />
 					</div>
 					<div
 						id="collaboration"
-						className="home-campaign-productivity md:px-12 max-md:px-8  overflow-hidden">
+						className="home-campaign-productivity md:px-12 max-md:px-5  overflow-hidden">
 						<Collaboration />
 					</div>
-					<Globe />
-					<div className="w-full relative z-[2] md:px-12 max-md:px-8">
+					<div className="w-full relative z-[2] md:px-12 max-md:px-5">
 						<ul className="lg:w-9/12 text-[14px] pt-16 text-[#7d8590] space-y-1">
 							<li>
 								<sup id="footnote-1">1</sup> This 7X times factor is based on
