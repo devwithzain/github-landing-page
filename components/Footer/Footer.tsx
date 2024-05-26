@@ -10,7 +10,7 @@ import {
 export default function Footer() {
 	return (
 		<div className="footer relative pt-14 break-words">
-			<div className="relative z-[2] overflow-hidden w-full md:px-12 max-md:px-8">
+			<div className="relative z-[2] overflow-hidden w-full md:px-12 max-md:px-5">
 				<div className="flex flex-col lg:flex-row py-10 mb-8 md:space-x-6">
 					<div className="mb-12 pr-2">
 						<Link
@@ -51,7 +51,7 @@ export default function Footer() {
 							<div
 								className="text-[#7d8590]"
 								key={item.id}>
-								<h2 className="font-medium mb-4 font-mono">{item.title}</h2>
+								<h2 className="font-extrabold mb-4">{item.title}</h2>
 								<>
 									{item.links.map((link) => (
 										<ul
@@ -73,7 +73,7 @@ export default function Footer() {
 				</div>
 			</div>
 
-			<div className="bg-[#161b22] md:px-12 max-md:px-8 w-full">
+			<div className="bg-[#161b22] md:px-12 max-md:px-5 w-full">
 				<div className="w-full text-[12px] md:flex flex-row-reverse py-6 justify-between items-center">
 					<ul className="flex items-center max-md:mb-4  ">
 						{footerSocialItems.map((item) => (
